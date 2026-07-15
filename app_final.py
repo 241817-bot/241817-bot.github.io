@@ -32,7 +32,7 @@ def load_corpus_samples():
 samples = load_corpus_samples()
 
 # UI
-st.title('📚 한글 맞춤법 탐구: '다만' 규정 마스터')
+st.title('📚 한글 맞춤법 탐구: "다만" 규정 마스터')
 st.sidebar.header('학습 메뉴')
 app_mode = st.sidebar.selectbox('이동할 페이지', ['홈', '전체 규정 보기', '실제 말뭉치 분석', '예외 규정 퀴즈'])
 
